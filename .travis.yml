@@ -1,4 +1,5 @@
 language: ruby
+cache: bundler
 rvm:
 - 2.3.3
 
@@ -22,3 +23,10 @@ env:
 
 sudo: false # route your build to the container-based infrastructure for a faster build
 
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: index.html
+  skip_cleanup: true
+  on:
+    tags: true
