@@ -22,6 +22,7 @@ deploy:
   provider: releases
   api_key:
     secure: S+7ZhTMpDW5zWScurBNdtxYvg4z5fM45zuKPGS3YXI97rhKYOkoj/Q1tWthAtCX7MGEe0TDn7ZdXlgIOTREXMYX6l7rn97VmUVcg/cvu7w6n+RsUCAdvWOxcwtdiLpaYCdleUDZ28yHIIVQ8AQ5UX5HiZZzx5MRGtQ2EaRxg1hqifc6YmC/fgi8mom0RLWAV7QlW7uYMQcLG3NjZbGUR+QuL2yk0FT7FAiqX0X9CjD1CraWPZWyXcDWgLMuqYjSkgHmsPHGoPBprwNFaJw79WsM1prHc9v+tZLQNRgxuoiwBpo5ZnlacbIcJruINioS101/DplGNfoW4M3pwqDYiook8IedUA+tyqwMG2ffwL2V6vh5zm/mcTXq4IDu5Y4rlY2TcoNDU72njyg4FQJs6tkjBy7xlEJit308q0VIYc14qhZYb/J4JUMRcxOWgD059SKTRjyLr6QZdpXWHFhKV8h9rgo6lP3Y+rrYShvGI48m/qA+WgjepsqvxDDDkRLLWeWS87Q08DppJjCAZjo3utKiyRA8VmtQMjzWs5bwifV5Ao745jd9Qit8uaV+IvG4S37xdBE5wak/gHdhgFKMyZQhxB07xAgC7pjpiqiHu6A6xMjHkLufBSZc39+PksgBL8c8EpqX72qOpYd1fohPdB3wUtnJeS6XO5FijS+iSOKU=
-  file: _site
+  file_glob: true
+  file: _site/**/*
   on:
     repo: ccram-website/ccram-website.github.io
