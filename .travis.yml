@@ -19,7 +19,7 @@ before_deploy:
 - git config --local user.email "YOUR GIT USER EMAIL"
 - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 - echo echoing the site directory
-- ls /home/travis/build/ccram-website/ccram-website.github.io/_site/**/*
+- ls /home/travis/build/ccram-website/ccram-website.github.io/_site/
   
 deploy:
   provider: releases
