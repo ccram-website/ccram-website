@@ -30,6 +30,6 @@ before_deploy:
   - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 deploy:
   provider: releases
-  api_key: "vbtR7dnt_wHVXEvKSGhYRg"
+  api_key: "9b2a5f0547fa03cd8ee66b04189f33102233f32f"
   file: index.html
   skip_cleanup: true
