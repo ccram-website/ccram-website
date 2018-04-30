@@ -27,7 +27,6 @@ url: http://yourdomain.com/
 #### Under the Hood Stuff #####
 
 markdown: kramdown
-theme: minima
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 permalink: pretty
