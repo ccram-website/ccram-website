@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
+echo -e "\n\n\nscript/cibuild\n\n\n"
 echo $(pwd)
 bundle exec jekyll build
 echo $(pwd)
