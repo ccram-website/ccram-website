@@ -1,7 +1,7 @@
 ---
 layout: indexlayout
 ---
-**index.md content**  
+**index.md content number 2**  
 # Header
 what
 
