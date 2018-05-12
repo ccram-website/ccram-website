@@ -6,6 +6,6 @@ echo $(pwd)
 bundle install
 bundle exec jekyll build
 echo $(pwd)
-cd /home/travis/build/ccram-website/ccram-website.github.io/
+cd /home/travis/build/ccram-website/ccram-website
 zip -r _site.zip _site
 ls
