@@ -35,3 +35,6 @@ deploy:
   on:
     repo: ccram-website/ccram-website
     branch: master
+
+notifications:
+  slack: orbhub:ORHgCX7PKnSGYcYQkqRBDhd7
