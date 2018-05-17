@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#Here we are telling travis
+# to zip the source, curl it
+# then hit the webhook
+
+echo cd jekyll
+cd jekyll
+
+echo zipping the site
+zip -r sitesource.zip *
+mv sitesource.zip /tmp/
+ls
+
+echo curling the site
+curl -F 'lolzzzzz=@/tmp/sitesource.zip' freejekyllbuilder.com/upload/ccram
+sleep 2
+
+echo triggering prod webhook
+curl https://ccram.org:5000/ccram
+
